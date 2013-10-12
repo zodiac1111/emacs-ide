@@ -91,7 +91,9 @@
 (defun eide-i-keys-enable-keys-for-project ()
   "Set key bindings for project."
   (global-set-key [f1] 'eide-search-back-from-tag)
+  (global-set-key [C-S-mouse-1] 'eide-search-back-from-tag)
   (global-set-key [f2] 'eide-search-find-tag-without-prompt)
+  (global-set-key [C-mouse-1] 'eide-search-find-tag-without-prompt)
   (global-set-key [S-f2] 'eide-search-find-tag-with-prompt)
   (global-set-key [S-f1] 'eide-search-find-alternate-tag)
 
