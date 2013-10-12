@@ -1,10 +1,10 @@
 You can install Emacs-IDE:
 
-- either for all users:
-  Execute "./install" (with root privileges) in a terminal.
+- either for all users(as root):
+  Execute "./install -r" (with root privileges) in a terminal.
 
 - or for current user only:
-  Execute "./install -l" in a terminal.
+  Execute "./install -l" or just "./install" in a terminal.
 
 At the end of installation, instructions are given for enabling Emacs-IDE in
 your ~/.emacs.
